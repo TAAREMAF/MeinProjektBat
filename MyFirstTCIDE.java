@@ -1,4 +1,4 @@
-package com.example.tests;
+﻿package com.example.tests;
 
 import com.thoughtworks.selenium.Selenium;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -31,7 +31,7 @@ public class MyFirstTCIDE {
 		selenium.waitForPageToLoad("30000");
 		selenium.waitForPopUp("_self", "30000");
 		selenium.click("link=Zu den Angeboten");
-		selenium.waitForPageToLoad("30000");
+		selenium.waitForPageToLoad("20000");
 		selenium.click("//div[4]/div/div[2]/div/div/div/form/div[2]/div/div/span/fieldset/div[2]/label");
 		selenium.click("id=voip-disable_0");
 	}
